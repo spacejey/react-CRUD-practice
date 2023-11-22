@@ -1,4 +1,5 @@
 import dummy from '../db/data.json'
+import Word from './Word'
 
 export default function Day() {
   const day = 1
@@ -11,10 +12,7 @@ export default function Day() {
     <table>
       <tbody>
         {wordList.map(word => (
-          <tr key={word.id}>
-            <td>{word.eng}</td>
-            <td>{word.kor}</td>
-          </tr>
+          <Word word={word} key={word.id}/>
         ))}
       </tbody>
     </table>

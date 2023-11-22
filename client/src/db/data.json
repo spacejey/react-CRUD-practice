@@ -26,6 +26,20 @@
       "isDone": false
     },
     {
+      "id": 13,
+      "day": 1,
+      "eng": "love",
+      "kor": "사랑",
+      "isDone": false
+    },
+    {
+      "id": 14,
+      "day": 1,
+      "eng": "mean to be",
+      "kor": "인연",
+      "isDone": false
+    },
+    {
       "id": 3,
       "day": 2,
       "eng": "car",
