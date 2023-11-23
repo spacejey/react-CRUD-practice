@@ -1,17 +1,19 @@
-import dummy from '../db/data.json'
+import { useParams } from 'react-router-dom'
+import useFetch from '../hooks/useFetch'
+
+
+//Components
 import Word from './Word'
 
 export default function Day() {
-  const day = 1
-  const wordList = dummy.words.filter(word => (
-    word.day === 1
-  ))
-  console.log(wordList)
+  //주소창에 있는 문자열을 가져온다. id를 가져오는 것.
+  const { day } = useParams()
+  const words = useFetch(`http://localhost:3000/words?day=${day}`)
 
   return (
     <table>
       <tbody>
-        {wordList.map(word => (
+        {words.map(word => (
           <Word word={word} key={word.id}/>
         ))}
       </tbody>
