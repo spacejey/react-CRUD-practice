@@ -7,12 +7,11 @@ export default function DayList() {
 
   //랜더링이 되고 API 호출을 위한 목적
   useEffect(() => {
-    fetch('http://localhost:3001/days')
+    fetch('http://localhost:3000/days')
       .then(res => {
         return res.json()
       })
       .then(data => {
-        console.log(data)
         setDays(data)
       })
   }, [])
