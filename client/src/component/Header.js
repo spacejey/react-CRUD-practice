@@ -7,13 +7,11 @@ export default function Header() {
       <h1>
         <Link to='/'>voca</Link>
       </h1>
-      <div>
-        <a href="#x" className="link">
-          Add Voca
-        </a>
-        <a href="#x" className="link">
-          Add Date
-        </a>
+      <div className='menu'>
+        <Link to='/create_word' className="link">
+          Add Voca</Link>
+        <Link to='/create_day' className="link">
+          Add Date</Link>
       </div>
 
     </div>

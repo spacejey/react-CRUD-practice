@@ -15,32 +15,44 @@
     {
       "day": 4,
       "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
+    },
+    {
+      "day": 7,
+      "id": 7
     }
   ],
   "words": [
     {
       "id": 1,
       "day": 1,
-      "eng": "book",
-      "kor": "책",
-      "isDone": false
-    },
-    {
-      "id": 13,
-      "day": 1,
       "eng": "love",
       "kor": "사랑",
       "isDone": false
     },
     {
-      "id": 14,
+      "id": 2,
       "day": 1,
-      "eng": "mean to be",
-      "kor": "인연",
+      "eng": "film",
+      "kor": "영화",
       "isDone": false
     },
     {
       "id": 3,
+      "day": 1,
+      "eng": "cinema",
+      "kor": "영화관",
+      "isDone": false
+    },
+    {
+      "id": 4,
       "day": 2,
       "eng": "car",
       "kor": "자동차",
@@ -48,59 +60,136 @@
     },
     {
       "id": 5,
-      "day": 3,
+      "day": 2,
       "eng": "school",
       "kor": "학교",
       "isDone": false
     },
     {
       "id": 6,
-      "day": 3,
+      "day": 2,
       "eng": "pencil",
       "kor": "연필",
       "isDone": false
     },
     {
+      "id": 7,
       "day": 3,
       "eng": "window",
       "kor": "창문",
-      "isDone": false,
-      "id": 7
+      "isDone": false
     },
     {
+      "id": 8,
       "day": 3,
       "eng": "house",
       "kor": "집",
-      "isDone": false,
-      "id": 8
+      "isDone": false
     },
     {
-      "day": 2,
+      "id": 9,
+      "day": 3,
       "eng": "mouse",
       "kor": "쥐",
-      "isDone": false,
-      "id": 9
+      "isDone": false
     },
     {
+      "id": 10,
       "day": 4,
       "eng": "monkey",
       "kor": "원숭이",
-      "isDone": false,
-      "id": 10
+      "isDone": false
     },
     {
+      "id": 11,
       "day": 4,
       "eng": "apple",
       "kor": "사과",
-      "isDone": false,
-      "id": 11
+      "isDone": false
     },
     {
-      "day": 3,
-      "eng": "apple",
-      "kor": "사과",
+      "id": 12,
+      "day": 4,
+      "eng": "zoo",
+      "kor": "동물원",
+      "isDone": false
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "1",
       "isDone": false,
-      "id": 12
+      "id": 13
+    },
+    {
+      "day": "s",
+      "eng": "",
+      "kor": "1",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "s",
+      "eng": "",
+      "kor": "1",
+      "isDone": false,
+      "id": 15
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "1",
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "day": "Honey",
+      "eng": "꿀",
+      "kor": "2",
+      "isDone": false,
+      "id": 17
+    },
+    {
+      "day": "Eunyoung",
+      "eng": "아름다운",
+      "kor": "4",
+      "isDone": false,
+      "id": 18
+    },
+    {
+      "day": "2",
+      "eng": "Honey",
+      "kor": "꿀",
+      "isDone": false,
+      "id": 19
+    },
+    {
+      "day": "2",
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": false,
+      "id": 20
+    },
+    {
+      "day": "5",
+      "eng": "coffee",
+      "kor": "커피",
+      "isDone": false,
+      "id": 21
+    },
+    {
+      "day": "6",
+      "eng": "food",
+      "kor": "음식",
+      "isDone": false,
+      "id": 22
+    },
+    {
+      "day": "7",
+      "eng": "radio",
+      "kor": "라디오",
+      "isDone": false,
+      "id": 23
     }
   ]
 }

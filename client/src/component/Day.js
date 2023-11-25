@@ -11,12 +11,15 @@ export default function Day() {
   const words = useFetch(`http://localhost:3000/words?day=${day}`)
 
   return (
-    <table>
-      <tbody>
-        {words.map(word => (
-          <Word word={word} key={word.id}/>
-        ))}
-      </tbody>
-    </table>
+    <>
+      <h2>Day {day}</h2>
+      <table>
+        <tbody>
+          {words.map(word => (
+            <Word word={word} key={word.id}/>
+          ))}
+        </tbody>
+      </table>
+    </>
   )
 }
