@@ -35,21 +35,21 @@
       "day": 1,
       "eng": "love",
       "kor": "사랑",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 2,
       "day": 1,
       "eng": "film",
       "kor": "영화",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 3,
       "day": 1,
       "eng": "cinema",
       "kor": "영화관",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 4,
@@ -77,14 +77,14 @@
       "day": 3,
       "eng": "window",
       "kor": "창문",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 8,
       "day": 3,
       "eng": "house",
       "kor": "집",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 9,
@@ -115,81 +115,32 @@
       "isDone": false
     },
     {
-      "day": "",
-      "eng": "",
-      "kor": "1",
+      "day": "6",
+      "eng": "library",
+      "kor": "도서관",
       "isDone": false,
       "id": 13
     },
     {
-      "day": "s",
-      "eng": "",
-      "kor": "1",
+      "day": "6",
+      "eng": "laptop",
+      "kor": "노트북",
       "isDone": false,
       "id": 14
     },
     {
-      "day": "s",
-      "eng": "",
-      "kor": "1",
+      "day": "7",
+      "eng": "candy",
+      "kor": "사탕",
       "isDone": false,
       "id": 15
     },
     {
-      "day": "",
-      "eng": "",
-      "kor": "1",
+      "day": "7",
+      "eng": "book",
+      "kor": "책",
       "isDone": false,
       "id": 16
-    },
-    {
-      "day": "Honey",
-      "eng": "꿀",
-      "kor": "2",
-      "isDone": false,
-      "id": 17
-    },
-    {
-      "day": "Eunyoung",
-      "eng": "아름다운",
-      "kor": "4",
-      "isDone": false,
-      "id": 18
-    },
-    {
-      "day": "2",
-      "eng": "Honey",
-      "kor": "꿀",
-      "isDone": false,
-      "id": 19
-    },
-    {
-      "day": "2",
-      "eng": "mouse",
-      "kor": "쥐",
-      "isDone": false,
-      "id": 20
-    },
-    {
-      "day": "5",
-      "eng": "coffee",
-      "kor": "커피",
-      "isDone": false,
-      "id": 21
-    },
-    {
-      "day": "6",
-      "eng": "food",
-      "kor": "음식",
-      "isDone": false,
-      "id": 22
-    },
-    {
-      "day": "7",
-      "eng": "radio",
-      "kor": "라디오",
-      "isDone": false,
-      "id": 23
     }
   ]
 }

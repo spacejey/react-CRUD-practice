@@ -1,3 +1,6 @@
+- home: 3000
+- JSON server: 3001
+
 1. Build the folders
 2. DB
 3. Put functions to the btns
