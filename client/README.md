@@ -1,5 +1,5 @@
-- home: 3000
-- JSON server: 3001
+- home: 3001
+- JSON server: 3000 ( json-server --watch ./src/db/data.json --port 3000 )
 
 1. Build the folders
 2. DB

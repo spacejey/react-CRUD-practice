@@ -141,6 +141,13 @@
       "kor": "책",
       "isDone": false,
       "id": 16
+    },
+    {
+      "day": "7",
+      "eng": "cigarret",
+      "kor": "담배",
+      "isDone": false,
+      "id": 17
     }
   ]
 }

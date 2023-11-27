@@ -1,23 +1,30 @@
+import React from 'react'
 import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
+import { IDay } from './DayList'
 
 export default function CreateWord() {
-  const days = useFetch('http://localhost:3000/days')
+  const days : IDay[] = useFetch('http://localhost:3000/days')
+
   //useRef는 DOM에 접근할 수 있게 해준다. 스크롤 위치 확인이나 포커스를 주거나.
-  const engRef = useRef(null)
-  const korRef = useRef(null)
-  const dayRef = useRef(null)
+  const engRef = useRef<HTMLInputElement>(null)
+  const korRef = useRef<HTMLInputElement>(null)
+  const dayRef = useRef<HTMLSelectElement>(null)
   const navigate = useNavigate()
+  
   //통신 중일 때 버튼을 클릭 할 수 없도록 제어하는 장치
   const [ isLoading, setIsLoading ] = useState(false)
   
-  function onSubmit(e){
-
+  function onSubmit(e: React.FormEvent){ 
     e.preventDefault()
 
-    if (!isLoading) {
+    if (!isLoading && dayRef.current && engRef.current && korRef.current) {
       setIsLoading(true)
+
+      const day = dayRef.current.value
+      const eng = engRef.current.value
+      const kor = korRef.current.value
 
       fetch('http://localhost:3000/words/', {
         method: 'POST',
@@ -25,15 +32,15 @@ export default function CreateWord() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          day: dayRef.current.value,
-          eng: engRef.current.value,
-          kor: korRef.current.value,
+          day,
+          eng,
+          kor,
           isDone: false,
         }),
       }).then(res => {
         if (res.ok) {
-          alert(`New Word Added in Day ${dayRef.current.value}`)
-          navigate(`/day/${dayRef.current.value}`)
+          alert(`New Word Added in Day ${day}`)
+          navigate(`/day/${day}`)
           setIsLoading(false)
         }
       })
