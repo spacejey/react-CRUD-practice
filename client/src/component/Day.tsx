@@ -7,7 +7,7 @@ import useFetch from '../hooks/useFetch'
 import Word, { Iword } from './Word'
 
 export default function Day() {
-  //주소창에 있는 문자열을 가져온다. id를 가져오는 것.
+  //Get the string in the address bar. Getting the id
   const { day } = useParams<{ day: string }>()
   const words : Iword[] = useFetch(`http://localhost:3000/words?day=${day}`)
 

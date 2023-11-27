@@ -10,7 +10,7 @@ export interface IDay {
 export default function DayList() {
   const days : IDay[] = useFetch('http://localhost:3000/days')
 
-  //Slow 3G를 위한 로딩 설정, day 배열이 0개일때에 설정한다.
+  //Loading settings for Slow 3G, set when the day array is 0
   if (days.length === 0) {
     return <span>Loading...</span>
   }

@@ -35,21 +35,21 @@
       "day": 1,
       "eng": "love",
       "kor": "사랑",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": 2,
       "day": 1,
       "eng": "film",
       "kor": "영화",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": 3,
       "day": 1,
       "eng": "cinema",
       "kor": "영화관",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": 4,

@@ -26,19 +26,18 @@ export default function Word({ word: w }: IProps) {
 
   function toggleDone() {
     fetch(`http://localhost:3000/words/${word.id}`, {
-      //요청의 옵션들이 두번째 인자가 된다.
+      //The options of the request are the second arguments
       method: 'PUT',
-      //보내는 리소스의 타입
+      //Type of resource being sent 보내는 리소스의 타입 
       headers: {
         'Content-Type': 'application/json',
       },
-      //수정을 위한 정보들 입력
+      //Enter information for modification 수정을 위한 정보들 입력
       body: JSON.stringify({
         ...word,
         isDone: !isDone,
       }),
     })
-    //응답을 받는다: res
       .then(res => {
         if (res.ok) {
           setIsDone(!isDone)

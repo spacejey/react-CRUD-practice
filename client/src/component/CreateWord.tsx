@@ -7,13 +7,13 @@ import { IDay } from './DayList'
 export default function CreateWord() {
   const days : IDay[] = useFetch('http://localhost:3000/days')
 
-  //useRef는 DOM에 접근할 수 있게 해준다. 스크롤 위치 확인이나 포커스를 주거나.
+  //useRef allows access to the DOM. Check scroll position or give focus
   const engRef = useRef<HTMLInputElement>(null)
   const korRef = useRef<HTMLInputElement>(null)
   const dayRef = useRef<HTMLSelectElement>(null)
   const navigate = useNavigate()
   
-  //통신 중일 때 버튼을 클릭 할 수 없도록 제어하는 장치
+  //A device that controls buttons so they cannot be clicked when communicating
   const [ isLoading, setIsLoading ] = useState(false)
   
   function onSubmit(e: React.FormEvent){ 
