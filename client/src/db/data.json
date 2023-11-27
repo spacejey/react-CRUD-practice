@@ -27,6 +27,10 @@
     {
       "day": 7,
       "id": 7
+    },
+    {
+      "day": 8,
+      "id": 8
     }
   ],
   "words": [
@@ -77,13 +81,6 @@
       "day": 3,
       "eng": "window",
       "kor": "창문",
-      "isDone": true
-    },
-    {
-      "id": 8,
-      "day": 3,
-      "eng": "house",
-      "kor": "집",
       "isDone": true
     },
     {

@@ -1,18 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-
-
-interface IProps {
-  word: Iword;
-}
-
-export interface Iword {
-  day: string;
-  eng: string;
-  kor: string;
-  isDone: boolean;
-  id: number;
-}
+import { IProps, IDay } from './types'
 
 export default function Word({ word: w }: IProps) {
   const [word, setWord] = useState(w)

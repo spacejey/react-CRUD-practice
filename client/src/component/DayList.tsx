@@ -1,11 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
-
-export interface IDay {
-  id: number,
-  day: string
-}
+import { IDay } from './types'
 
 export default function DayList() {
   const days : IDay[] = useFetch('http://localhost:3000/days')
@@ -21,7 +17,6 @@ export default function DayList() {
         {days.map(day => (
           <li key={day.id}>
             <Link to={`/day/${day.day}`}>Day {day.day}</Link>
-            <button className='btn_del' >Delete</button>
           </li>
         ))}
       </ul>

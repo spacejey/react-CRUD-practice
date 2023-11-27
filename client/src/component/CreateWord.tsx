@@ -2,7 +2,7 @@ import React from 'react'
 import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
-import { IDay } from './DayList'
+import { IWord, IDay } from './types'
 
 export default function CreateWord() {
   const days : IDay[] = useFetch('http://localhost:3000/days')
