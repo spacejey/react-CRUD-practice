@@ -4,7 +4,7 @@ import useFetch from '../hooks/useFetch'
 
 export interface IDay {
   id: number,
-  day: number
+  day: string
 }
 
 export default function DayList() {
@@ -21,6 +21,7 @@ export default function DayList() {
         {days.map(day => (
           <li key={day.id}>
             <Link to={`/day/${day.day}`}>Day {day.day}</Link>
+            <button className='btn_del' >Delete</button>
           </li>
         ))}
       </ul>

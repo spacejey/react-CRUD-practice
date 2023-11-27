@@ -22,7 +22,7 @@ export default function CreateWord() {
     if (!isLoading && dayRef.current && engRef.current && korRef.current) {
       setIsLoading(true)
 
-      const day = dayRef.current.value
+      const day = Number(dayRef.current.value)
       const eng = engRef.current.value
       const kor = korRef.current.value
 

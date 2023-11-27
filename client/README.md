@@ -1,5 +1,24 @@
-- home: 3001
+# Intro
+
 - JSON server: 3000 ( json-server --watch ./src/db/data.json --port 3000 )
+- Client server: 3001 ( cd client -> npm run start )
+
+# Eng
+
+1. Build the folders
+2. DB
+3. Put functions to the btns
+4. Install Json-server for REST API practice
+4-1. REST API: With URI - Building CRUD using POST, GET, PUT, DELETE methods
+5. [Error] I am trying to link to the API, but only words are visible and buttons for each date are not visible => This is because the URI port was set to 3001. The port was being used too much, so I looked for a way to forcefully close the port.
+5-1. If you search netstat -a in the terminal and kill pid number, the port will be deleted.
+6. The Uncaught Error kept occurring, and it turned out that I was using react-router-dom's Link, but the problem was that the components were not wrapped with Router. Solved.
+7. useParams is a hook that determines which URL parameters the component should receive. It extracts the dynamically changing part of the URI! I’m proud!!
+8. useEffect is used to get the API URI. Data is continuously retrieved through links, and there is a concept called dependency array. If you put an empty array as the second parameter value, it will be used as the first synchronized data. If you put a component in, it means that the callback function will be re-rendered every time the state value changes.
+
+9. Since the useEffect used in Day and DayList is similar, it was produced using useFetch. You can design the same imported logic and import it as State in each component.
+
+# Kor
 
 1. Build the folders
 2. DB
