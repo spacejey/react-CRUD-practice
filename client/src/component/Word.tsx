@@ -20,7 +20,6 @@ export default function Word({ word: w }: IProps) {
     }
     fetchWords()
   }, [day])
-  console.log('countChecked', countChecked)
 
   function togleShow(){
     setIsShow(!isShow)

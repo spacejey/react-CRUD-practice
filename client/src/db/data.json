@@ -53,28 +53,28 @@
       "day": 1,
       "eng": "cinema",
       "kor": "영화관",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 4,
       "day": 2,
       "eng": "car",
       "kor": "자동차",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 5,
       "day": 2,
       "eng": "school",
       "kor": "학교",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 6,
       "day": 2,
       "eng": "pencil",
       "kor": "연필",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 7,
@@ -115,7 +115,7 @@
       "day": 6,
       "eng": "library",
       "kor": "도서관",
-      "isDone": false,
+      "isDone": true,
       "id": 13
     },
     {
@@ -129,7 +129,7 @@
       "day": 7,
       "eng": "candy",
       "kor": "사탕",
-      "isDone": false,
+      "isDone": true,
       "id": 15
     },
     {
@@ -145,6 +145,20 @@
       "kor": "담배",
       "isDone": false,
       "id": 17
+    },
+    {
+      "day": 2,
+      "eng": "candy",
+      "kor": "사탕",
+      "isDone": true,
+      "id": 18
+    },
+    {
+      "day": 2,
+      "eng": "coca-cola",
+      "kor": "코카콜라",
+      "isDone": false,
+      "id": 19
     }
   ]
 }

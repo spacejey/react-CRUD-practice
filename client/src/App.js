@@ -1,7 +1,5 @@
 import React from 'react'
-import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.css'
 
 //Components

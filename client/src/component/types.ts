@@ -14,3 +14,12 @@ export interface IWord {
   isDone: boolean;
   id: number;
 }
+
+export interface ProcessProps {
+  totalWords: number
+  doneWordsCount: number
+}
+
+export interface CheerMessageProps {
+  progress: number
+}
