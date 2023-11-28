@@ -1,16 +1,31 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { IProps, IDay } from './types'
 
 export default function Word({ word: w }: IProps) {
   const [word, setWord] = useState(w)
   const [isShow, setIsShow] = useState(false)
-  const [isDone, setIsDone] = useState(word.isDone) 
+  const [isDone, setIsDone] = useState(word.isDone)
+  const { day } = useParams<{ day: string }>()
+  const [countChecked, setCountChecked] = useState(0)
 
+  useEffect(() => {
+    const fetchWords = async () => {
+      const res = await fetch(`http://localhost:3000/words?day=${day}`)
+      const data = await res.json()
+      const checkedCount = data.filter((item: any) => item.isDone).length
+
+      setCountChecked(checkedCount)
+    }
+    fetchWords()
+  }, [day])
+  console.log('countChecked', countChecked)
 
   function togleShow(){
     setIsShow(!isShow)
   }
+
 
   function toggleDone() {
     fetch(`http://localhost:3000/words/${word.id}`, {
@@ -52,19 +67,21 @@ export default function Word({ word: w }: IProps) {
 
 
   return (
-    <tr className={isDone ? 'Off' : ''}>
-      <td>
-        <input type="checkbox" checked={isDone}
-          onChange={toggleDone}/>
-      </td>
-      <td>{word.eng}</td>
-      <td>{isShow && word.kor}</td>
-      <td>
-        <button onClick={togleShow}>
-          Meaning {isShow ? 'Hide' : 'Show'}
-        </button>
-        <button className='btn_del' onClick={del}>Delete</button>
-      </td>
-    </tr>
+    <>
+      <tr className={isDone ? 'Off' : ''}>
+        <td>
+          <input type="checkbox" checked={isDone}
+            onChange={toggleDone}/>
+        </td>
+        <td>{word.eng}</td>
+        <td>{isShow && word.kor}</td>
+        <td>
+          <button onClick={togleShow}>
+            Meaning {isShow ? 'Hide' : 'Show'}
+          </button>
+          <button className='btn_del' onClick={del}>Delete</button>
+        </td>
+      </tr>
+    </>
   )
 }

@@ -38,6 +38,7 @@ export default function Day() {
     })
 
     if (resDay.ok) {
+
       navigate('/')
     } else {
       // Handle error

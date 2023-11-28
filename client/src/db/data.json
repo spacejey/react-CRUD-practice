@@ -39,14 +39,14 @@
       "day": 1,
       "eng": "love",
       "kor": "사랑",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 2,
       "day": 1,
       "eng": "film",
       "kor": "영화",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 3,
