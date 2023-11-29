@@ -50,11 +50,11 @@ export default function CreateWord() {
   return (
     <form onSubmit={onSubmit}>
       <div className="input_area">
-        <label>Eng</label>
+        <label>English</label>
         <input type="text" placeholder="computer" ref={engRef} />
       </div>
       <div className="input_area">
-        <label>Kor</label>
+        <label>Korean</label>
         <input type="text" placeholder="컴퓨터" ref={korRef}/>
       </div>
       <div className="input_area">
@@ -68,6 +68,7 @@ export default function CreateWord() {
         </select>
       </div>
       <button
+        className='save_btn'
         style={{
           opacity: isLoading ? 0.3 : 1,
         }}

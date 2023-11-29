@@ -2,6 +2,7 @@
 .list_day {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
   column-gap: 20px;
 }
 
@@ -16,6 +17,11 @@
   border: 1px solid black;
   font-size: 25px;
   text-shadow: 3px 3px 0px #ffffff;
+}
+
+.list_day li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .list_day a {

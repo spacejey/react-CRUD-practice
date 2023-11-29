@@ -20,3 +20,45 @@
 .word-grid {
   margin-top: 30px;
 }
+
+.word_btns {
+  padding-top: 10px;
+}
+
+.btn_show {
+  font-family: "Poppins", sans-serif;
+  background-color: #007bff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.btn_del_word {
+  font-family: "Poppins", sans-serif;
+  background-color: #ff0000;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+/* Word */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td {
+  width: 25%;
+  height: 70px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 26px;
+}
+
+table td:first-child {
+  width: 10%;
+}
+
+.off td {
+  background: #eee;
+  color: #ccc;
+}

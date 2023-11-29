@@ -112,6 +112,13 @@
       "kor": "코카콜라",
       "isDone": false,
       "id": 19
+    },
+    {
+      "day": 2,
+      "eng": "ss",
+      "kor": "dw",
+      "isDone": false,
+      "id": 20
     }
   ]
 }

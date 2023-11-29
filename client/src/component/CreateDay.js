@@ -28,8 +28,14 @@ export default function CreateDay() {
 
   return (
     <>
-      <h1>Current Day: {days.length} Day</h1>
-      <button onClick={addDay}>Add Day</button>
+      <form>
+        <h1>Current Day:</h1>
+        <br />
+        <span className='current_day'>
+          Day {days.length}
+        </span>
+        <button className='save_btn' onClick={addDay}>Add Day {days.length + 1} </button>
+      </form>
     </>
   )
 }

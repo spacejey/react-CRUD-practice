@@ -1,0 +1,54 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background-color: aqua;
+  margin: 100px 150px 100px 150px;
+  padding: 60px;
+  box-shadow: 3px 3px 0px 0px #000000;
+  border: 2px solid black;
+}
+
+.input_area label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.input_area input {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 0 10px;
+}
+
+.input_area select {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.save_btn {
+  width: 170px;
+  padding: 17px;
+  font-size: 25px;
+  margin-top: 60px;
+  border: 2px solid blue;
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  box-shadow: 3px 3px 0px 0px #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.save_btn:hover {
+  border: 2px solid  blue;
+  background-color: transparent;
+  color: blue;
+  box-shadow: 3px 3px 0px 0px #000000;
+}

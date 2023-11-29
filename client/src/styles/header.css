@@ -13,19 +13,20 @@
 .header-title {
   font-size: 40px;
   color: black;
+  font-size: 34px;
+  transition: font-size 0.3s ease;
 }
 
-.rotate:hover {
-  display: inline-block;
-  animation: rotate 2s linear infinite;
+.header-title:hover {
+  animation: heartbeat 0.2s 1;
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
+@keyframes heartbeat {
+  0%, 100% {
+    font-size: 34px;
   }
-  100% {
-    transform: rotate(360deg);
+  50% {
+    font-size: 36px;
   }
 }
 

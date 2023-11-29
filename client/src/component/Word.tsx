@@ -67,18 +67,20 @@ export default function Word({ word: w }: IProps) {
 
   return (
     <>
-      <tr className={isDone ? 'Off' : ''}>
+      <tr className={isDone ? 'Off' : ''} 
+        style = 
+          {{ fontFamily: 'font-family: "Poppins", sans-serif;' }}>
         <td>
           <input type="checkbox" checked={isDone}
             onChange={toggleDone}/>
         </td>
         <td>{word.eng}</td>
         <td>{isShow && word.kor}</td>
-        <td>
-          <button onClick={togleShow}>
-            {isShow ? 'Hide' : 'Show'}
+        <td className='word_btns'>
+          <button className='btn_show' onClick={togleShow}>
+            {isShow ? 'Hide ✔︎' : 'Show 👀'}
           </button>
-          <button className='btn_del' onClick={del}>Delete</button>
+          <button className='btn_del_word' onClick={del}>Delete</button>
         </td>
       </tr>
     </>
