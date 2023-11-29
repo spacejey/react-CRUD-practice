@@ -76,7 +76,7 @@ export default function Word({ word: w }: IProps) {
         <td>{isShow && word.kor}</td>
         <td>
           <button onClick={togleShow}>
-            Meaning {isShow ? 'Hide' : 'Show'}
+            {isShow ? 'Hide' : 'Show'}
           </button>
           <button className='btn_del' onClick={del}>Delete</button>
         </td>

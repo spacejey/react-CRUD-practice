@@ -1,0 +1,20 @@
+.complete {
+  font-size: 22px;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.process-bar {
+  width: 100%;
+  background-color: aliceblue;
+  border: 1px solid black;
+  height: 20px;
+  margin: 5px 0;
+}
+
+.process {
+  background-color: #ff00ff;
+  height: 100%;
+}
+

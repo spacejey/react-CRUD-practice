@@ -8,6 +8,24 @@ body {
   font-size: 20px;
 }
 
+.list_day {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 ol,
 ul {
   margin: 0;
@@ -27,28 +45,7 @@ a {
 
 .App {
   width: 800px;
-  margin: 0 auto;
-}
-
-
-/* Header */
-.header {
-  position: relative;
-}
-
-.header .menu {
-  position: absolute;
-  top: 10px;
-  right: 0;
-}
-
-.header .link {
-  border: 1px solid #333;
-  padding: 10px;
-  margin-left: 10px;
-  background-color: #efefef;
-  font-weight: bold;
-  border-radius: 4px;
+  margin: 10vh auto;
 }
 
 /* Word */

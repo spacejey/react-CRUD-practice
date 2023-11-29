@@ -11,10 +11,10 @@ const CheerMessage: React.FC<CheerMessageProps> = ({ progress }) => {
   } else if (progress >= 50) {
     message = 'Amazing, keep going!'
   } else if (progress >= 30) {
-    message = 'Lets go!'
+    message = 'Let\'s go!'
   }
 
-  return message ? <p>{message}</p> : null
+  return message ? <p className='message-box balloon'>{message}</p> : null
 }
 
 export default CheerMessage

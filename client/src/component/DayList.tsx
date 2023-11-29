@@ -44,7 +44,7 @@ export default function DayList() {
           <li key={day.id}>
             <Link to={`/day/${day.day}`}>
               <div>
-                Day {day.day} <br />
+                <p className='day-title'>Day {day.day}</p> <br />
                 {wordData[day.day] !== undefined ? (
                   <Process
                     totalWords={wordData[day.day].totalWords}

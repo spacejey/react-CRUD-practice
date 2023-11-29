@@ -1,5 +1,38 @@
-.cheer-message {
-  background-color: rgb(73, 226, 43);
+.message-box {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.balloon {
+  background: linear-gradient(to bottom right, #ce40f9, #ffbe55);
   border-radius: 15px;
+  color: #ffffff;
+  font-weight: 500;
   text-align: center;
+  position: relative;
+}
+
+.balloon::before,
+.balloon::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+}
+
+.balloon::before {
+  border-width: 0 15px 15px 15px; 
+  border-color: transparent transparent #ce40f9 transparent; 
+  top: -14px; 
+  left: 50%;
+  margin-left: -15px;
+}
+
+.balloon::after {
+  border-width: 0 14px 14px 14px;
+  border-color: transparent transparent #ce40f9 transparent;
+  top: -14px;
+  left: 50%;
+  margin-left: -14px;
 }
