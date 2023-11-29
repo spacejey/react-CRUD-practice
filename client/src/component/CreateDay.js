@@ -34,7 +34,10 @@ export default function CreateDay() {
         <span className='current_day'>
           Day {days.length}
         </span>
-        <button className='save_btn' onClick={addDay}>Add Day {days.length + 1} </button>
+        <button className='save_btn' 
+          onClick={addDay}>
+            Add Day {days.length + 1} 
+        </button>
       </form>
     </>
   )

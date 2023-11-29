@@ -11,23 +11,145 @@
     {
       "id": 3,
       "day": 3
+    },
+    {
+      "day": 4,
+      "id": 4
     }
   ],
   "words": [
-    {"day": 1, "eng": "Love", "kor": "사랑", "isDone": false, "id": 1},
-    {"day": 1, "eng": "Joy", "kor": "기쁨", "isDone": false, "id": 2},
-    {"day": 1, "eng": "Peace", "kor": "평화", "isDone": false, "id": 3},
-    {"day": 1, "eng": "Hope", "kor": "희망", "isDone": false, "id": 4},
-    {"day": 1, "eng": "Happiness", "kor": "행복", "isDone": false, "id": 5},
-    {"day": 2, "eng": "Smile", "kor": "미소", "isDone": false, "id": 6},
-    {"day": 2, "eng": "Kindness", "kor": "친절", "isDone": false, "id": 7},
-    {"day": 2, "eng": "Dream", "kor": "꿈", "isDone": false, "id": 8},
-    {"day": 2, "eng": "Gratitude", "kor": "감사", "isDone": false, "id": 9},
-    {"day": 2, "eng": "Friendship", "kor": "우정", "isDone": false, "id": 10},
-    {"day": 3, "eng": "Laughter", "kor": "웃음", "isDone": false, "id": 11},
-    {"day": 3, "eng": "Inspiration", "kor": "영감", "isDone": false, "id": 12},
-    {"day": 3, "eng": "Courage", "kor": "용기", "isDone": false, "id": 13},
-    {"day": 3, "eng": "Believe", "kor": "믿음", "isDone": false, "id": 14},
-    {"day": 3, "eng": "Harmony", "kor": "조화", "isDone": false, "id": 15}
+    {
+      "day": 1,
+      "eng": "Love",
+      "kor": "사랑",
+      "isDone": true,
+      "id": 1
+    },
+    {
+      "day": 1,
+      "eng": "Joy",
+      "kor": "기쁨",
+      "isDone": true,
+      "id": 2
+    },
+    {
+      "day": 1,
+      "eng": "Peace",
+      "kor": "평화",
+      "isDone": true,
+      "id": 3
+    },
+    {
+      "day": 1,
+      "eng": "Hope",
+      "kor": "희망",
+      "isDone": false,
+      "id": 4
+    },
+    {
+      "day": 1,
+      "eng": "Happiness",
+      "kor": "행복",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "day": 2,
+      "eng": "Smile",
+      "kor": "미소",
+      "isDone": true,
+      "id": 6
+    },
+    {
+      "day": 2,
+      "eng": "Kindness",
+      "kor": "친절",
+      "isDone": true,
+      "id": 7
+    },
+    {
+      "day": 2,
+      "eng": "Dream",
+      "kor": "꿈",
+      "isDone": false,
+      "id": 8
+    },
+    {
+      "day": 2,
+      "eng": "Gratitude",
+      "kor": "감사",
+      "isDone": false,
+      "id": 9
+    },
+    {
+      "day": 2,
+      "eng": "Friendship",
+      "kor": "우정",
+      "isDone": false,
+      "id": 10
+    },
+    {
+      "day": 3,
+      "eng": "Laughter",
+      "kor": "웃음",
+      "isDone": true,
+      "id": 11
+    },
+    {
+      "day": 3,
+      "eng": "Inspiration",
+      "kor": "영감",
+      "isDone": true,
+      "id": 12
+    },
+    {
+      "day": 3,
+      "eng": "Courage",
+      "kor": "용기",
+      "isDone": true,
+      "id": 13
+    },
+    {
+      "day": 3,
+      "eng": "Believe",
+      "kor": "믿음",
+      "isDone": true,
+      "id": 14
+    },
+    {
+      "day": 3,
+      "eng": "Harmony",
+      "kor": "조화",
+      "isDone": true,
+      "id": 15
+    },
+    {
+      "day": 4,
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": true,
+      "id": 16
+    },
+    {
+      "day": 4,
+      "eng": "hand",
+      "kor": "손",
+      "isDone": true,
+      "id": 17
+    },
+    {
+      "day": 4,
+      "eng": "bag",
+      "kor": "가방",
+      "isDone": true,
+      "id": 18
+    },
+    {
+      "day": 4,
+      "eng": "bread",
+      "kor": "빵",
+      "isDone": false,
+      "id": 19
+    }
   ]
 }
