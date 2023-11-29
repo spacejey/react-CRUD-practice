@@ -1,0 +1,22 @@
+.day-header {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 100px;
+}
+
+.day {
+  font-size: 20px;
+}
+
+.day-del {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  border: 2px solid red;
+  color: red;
+}
+
+.word-grid {
+  margin-top: 30px;
+}

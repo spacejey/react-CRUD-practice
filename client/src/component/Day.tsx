@@ -38,7 +38,7 @@ export default function Day() {
     })
 
     if (resDay.ok) {
-
+      alert(`Are you sure delete Day ${day}?`)
       navigate('/')
     } else {
       // Handle error
@@ -49,15 +49,17 @@ export default function Day() {
   return (
     <>
       <div className='day-header'>
-        <h2>Day {day}</h2>
-        <button className='btn_del' onClick={handleDeleteDay}>
-          Delete Date
+        <p className='day'>Day {day}</p>
+
+        <button className='day-del' 
+          onClick={handleDeleteDay}>
+          Delete Date 
         </button>
       </div>
 
       {words.length === 0 && <span>Loading...</span>}
 
-      <table>
+      <table className='word-grid'>
         <tbody>
           {words.map((word) => (
             <Word word={word} key={word.id} />

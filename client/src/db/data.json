@@ -1,10 +1,6 @@
 {
   "days": [
     {
-      "id": 1,
-      "day": 1
-    },
-    {
       "id": 2,
       "day": 2
     },
@@ -17,44 +13,15 @@
       "id": 4
     },
     {
-      "day": 5,
-      "id": 5
-    },
-    {
-      "day": 6,
-      "id": 6
-    },
-    {
       "day": 7,
       "id": 7
     },
     {
-      "day": 8,
+      "day": 6,
       "id": 8
     }
   ],
   "words": [
-    {
-      "id": 1,
-      "day": 1,
-      "eng": "love",
-      "kor": "사랑",
-      "isDone": true
-    },
-    {
-      "id": 2,
-      "day": 1,
-      "eng": "film",
-      "kor": "영화",
-      "isDone": true
-    },
-    {
-      "id": 3,
-      "day": 1,
-      "eng": "cinema",
-      "kor": "영화관",
-      "isDone": true
-    },
     {
       "id": 4,
       "day": 2,
@@ -110,20 +77,6 @@
       "eng": "zoo",
       "kor": "동물원",
       "isDone": false
-    },
-    {
-      "day": 6,
-      "eng": "library",
-      "kor": "도서관",
-      "isDone": true,
-      "id": 13
-    },
-    {
-      "day": 6,
-      "eng": "laptop",
-      "kor": "노트북",
-      "isDone": false,
-      "id": 14
     },
     {
       "day": 7,

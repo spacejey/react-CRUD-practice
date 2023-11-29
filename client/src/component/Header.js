@@ -6,7 +6,9 @@ export default function Header() {
   return (
     <div className="header">
       <h1>
-        <Link to="/" className='header-title'>✹Voca-Practice✹</Link>
+        <Link to="/" className='header-title'>
+          ✹Voca-Practice✹
+        </Link>
       </h1>
       <div className='menu'>
         <Link to='/create_word' className="link">
